@@ -5,9 +5,13 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0XtaLdJpsxY0tyeu4Gsy0HwECzlZJDtA&callback=initMap">
+    </script>
 </head>
 <body>
-
+<label>Search<input type="text" id="query" placeholder="Type your query here"></label>
+<input type="button" onclick="getQueryResults()" value="Results">
 <div id="map"></div>
 <script type="text/javascript">
     var fSData = {};
@@ -63,19 +67,7 @@
 
 
 
-<label>Search<input type="text" id="query" placeholder="Type your query here"></label>
-<input type="button" onclick="getQueryResults()" value="Results">
-<div class="google">AIzaSyB0XtaLdJpsxY0tyeu4Gsy0HwECzlZJDtA
-
-<script>
 
 
-
-
-
-</script>
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0XtaLdJpsxY0tyeu4Gsy0HwECzlZJDtA&callback=initMap">
-    </script>
 </body>
 </html>
