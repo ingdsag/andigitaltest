@@ -115,8 +115,8 @@ function getQueryResults(e)
 }
 function showMessage(msg)
 {
-    var alert = $(".alert.alert-danger");
-    alert[0].innerHTML = msg;
-    alert.show();
-    alert.delay(5000).fadeOut(500);
+    var alertMsg = $(".alert.alert-danger");
+    alertMsg[0].innerHTML = msg;
+    alertMsg.show();
+    alertMsg.delay(5000).fadeOut(500);
 }
